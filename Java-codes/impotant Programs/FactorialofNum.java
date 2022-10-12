@@ -11,9 +11,6 @@ public class Factorial
         {
             f=f*i;
         }
-        if(num==0)
-            System.out.println("factorial of given number is : 0 ");
-        else
-            System.out.println("factorial of given number is :"+f);
+        System.out.println("factorial of given number is :"+f);
     }
 }    
